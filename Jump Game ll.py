@@ -8,5 +8,5 @@ class Solution:
                     big=len(nums)-1-i
             k=k+1
             nums=nums[:-big]
-        
+        return s
         return k
